@@ -1,0 +1,33 @@
+.container {
+  width: 25%;
+}
+
+.paginationContainer {
+  position: fixed;
+  bottom: 100px;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.paginationContainer > button {
+  cursor: pointer;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.errorText {
+  width: 100%;
+  color: red;
+  text-align: center;
+}
